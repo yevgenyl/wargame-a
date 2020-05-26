@@ -27,7 +27,7 @@ TEST_CASE("Small Board 3x3 "){
     CHECK(!(board.has_soldiers(1)));
 }
 
-TEST_CASE("assert has soldiers method") {
+TEST_CASE("Not finished tests..") {
     WarGame::Board board(5,5);
     board[{0,0}] = new FootSoldier(1);
     for (int i = 0; i < 100; i++) {
